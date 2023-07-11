@@ -10,7 +10,7 @@ Hoje, operamos duas marcas principais que são líderes em seus respectivos segm
 
 Olá! Este teste tem como objetivo avaliar algumas de suas habilidades para desenvolvimento mobile.
 
-Suponha que esteja envolvido em um projeto novo da empresa em que é necessário converter uma aplicação web para mobile tornando-a uma aplicação hibrida.
+Suponha que esteja envolvido em um projeto novo da empresa em que é necessário converter uma aplicação web em angular para mobile tornando-a uma aplicação hibrida.
 
 O primeiro passo será converter essa aplicação num pwa.
 
@@ -18,4 +18,15 @@ Após este passo, você deverá exportar um apk para android.
  
 A única obrigatoriedade do exercício é a conversão da aplicação, você pode
 utilizar qualquer ferramenta de seu gosto para concluir o exercicio.
+
+
+## Instalação
+para instalar o projeto após o clone simplesmente rode um 
+`npm install`
+
+para rodar o servidor local
+`npm start`
+
+## Entrega
+apenas criar um pull request para avaliação e o apk pelo email informado no envio do teste
 
