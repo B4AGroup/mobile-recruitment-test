@@ -16,6 +16,6 @@ O primeiro passo será converter essa aplicação num pwa.
 
 Após este passo, você deverá exportar um apk para android.
  
-A única obrigatoriedade do exercício é a conversão da aplicação, você pode.
+A única obrigatoriedade do exercício é a conversão da aplicação, você pode
 utilizar qualquer ferramenta de seu gosto para concluir o exercicio.
 

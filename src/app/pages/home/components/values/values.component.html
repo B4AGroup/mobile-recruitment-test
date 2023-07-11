@@ -1,0 +1,87 @@
+<div class="b4a-values">
+  <div class="wrapper">
+    <div class="b4a-rainbow-circle left">
+      <img src="assets/images/Circle.png" alt="circulo colorido ao fundo">
+    </div>
+    <div id="b4a-rainbow-bar">
+      <div class="main"></div>
+    </div>
+
+    <h1 class="title">
+      Os valores que compartilhamos nos fazem B4A
+    </h1>
+    <div class="cards-container">
+      <div class="cards-text-wrapper">
+        <div class="cards" [ngClass]="!showText1 ? 'close-card': 'open-card'">
+          <icons icon="microscope"></icons>
+          <p class="subtitle">Pensar como um cientista</p>
+          <arrow fillColor="#EA2A69" class="arrow-down" (click)="handleShowTexts(1)"
+            [ngClass]="!showText1 ? 'arrow-down' : 'arrow-up'"></arrow>
+        </div>
+        <div *ngIf="showText1" class="text-container">
+          <div>
+            <p>
+              Aplicamos o raciocínio dos “Primeiros Princípios”, evitando analogias para encontrar
+              as partes fundamentais de cada assunto, assim como um cientista faz. Argumentos que
+              seguem essa lógica prevalecem na B4A independente da hierarquia dos colaboradores.
+              Chamamos isso de meritocracia de ideias.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cards-text-wrapper">
+        <div class="cards" [ngClass]="!showText2 ? 'close-card': 'open-card'">
+          <icons icon="lamp"></icons>
+          <p class="subtitle">Inovar sempre</p>
+          <arrow fillColor="#32b1fa" class="arrow-down" (click)="handleShowTexts(2)"
+            [ngClass]="!showText2 ? 'arrow-down' : 'arrow-up'"></arrow>
+        </div>
+        <div *ngIf="showText2" class="text-container">
+          <div>
+            <p>
+              A inovação faz parte do nosso DNA! Queremos evoluir a cada passo,
+              buscando novas maneiras para tornar nossos processos mais eficientes e
+              oferecer produtos e serviços cada vez melhores para os nossos clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cards-text-wrapper">
+        <div class="cards" [ngClass]="!showText3 ? 'close-card': 'open-card'">
+          <icons icon="flag"></icons>
+          <p class="subtitle">Fazer acontecer em equipe</p>
+          <arrow fillColor="#7d6dbd" class="arrow-down" (click)="handleShowTexts(3)"
+            [ngClass]="!showText3 ? 'arrow-down' : 'arrow-up'"></arrow>
+        </div>
+        <div *ngIf="showText3" class="text-container">
+          <div>
+            <p>
+              Para alcançar nossas ambições, unimos aqueles que são capazes de
+              fazer acontecer. Trabalhamos juntos com uma comunicação clara e o
+              objetivo de fazer “um mais um resultar em mais que dois”, vivendo
+              “teamwork”.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-text-wrapper">
+        <div class="cards" [ngClass]="!showText4 ? 'close-card': 'open-card'">
+          <icons icon="lupa"></icons>
+          <p class="subtitle">Foco no cliente</p>
+          <arrow fillColor="#7d6dbd" class="arrow-down" (click)="handleShowTexts(4)"
+            [ngClass]="!showText4 ? 'arrow-down' : 'arrow-up'"></arrow>
+        </div>
+        <div *ngIf="showText4" class="text-container">
+          <div>
+            <p>
+              Mantemos nossos clientes no centro da nossa atuação, buscando atendê-los com o máximo de excelência. O
+              ponto de partida para qualquer atividade na B4A é sempre uma questão de como gerar mais valor aos nossos
+              clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
